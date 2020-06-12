@@ -1,0 +1,13 @@
+[
+  {
+    "id": 0,
+    "name": "Github",
+    "link": "https://github.com/GabrielRodriguez66",
+    "icon": "/icons/github.svg"
+  },{
+    "id": 1,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/gabriel-e-rodriguez-ortiz/",
+    "icon": "/icons/linkedIn.svg"
+  }
+]
