@@ -6,7 +6,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: config.defaultTitle,
+    title: "Gabriel E Rodriguez Ortiz",
     description: config.defaultDescription,
     author: config.author,
   },
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: config.defaultTitle,
-        short_name: config.defaultTitle,
+        name: "Gabriel E Rodriguez Ortiz",
+        short_name: "Gabriel Rodriguez",
         start_url: '/',
         background_color: config.backgroundColor,
         theme_color: config.themeColor,

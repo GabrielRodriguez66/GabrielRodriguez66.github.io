@@ -1,8 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   background: transparent;
   width: 100%;
+  // position: fixed;
 `;
 
 export const Overlay = styled.div`
