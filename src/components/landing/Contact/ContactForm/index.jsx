@@ -37,13 +37,13 @@ export default () => (
             message,
           }),
         });
-        setSubmitting(false);
         setFieldValue('success', true);
         setTimeout(() => resetForm(), 6000);
       } catch (err) {
-        setSubmitting(false);
         setFieldValue('success', false);
 				alert('Something went wrong, please try again!') // eslint-disable-line
+      } finally {
+        setSubmitting(false);
       }
     }}
   >
@@ -94,7 +94,7 @@ export default () => (
               component={Recaptcha}
               sitekey={process.env.GATSBY_PORTFOLIO_RECAPTCHA_KEY}
               name="recaptcha"
-              onChange={value => setFieldValue('recaptcha', value)}
+              onChange={value => setFieldValue('recaptcha', value != null ? value : '')}
             />
             <ErrorMessage component={Error} name="recaptcha" />
           </InputField>
@@ -102,7 +102,7 @@ export default () => (
         {values.success && (
           <InputField>
             <Center>
-              <h4>Your message has been successfully sent, I will get back to you ASAP!</h4>
+              <h4>Your message has been successfully sent!</h4>
             </Center>
           </InputField>
         )}
