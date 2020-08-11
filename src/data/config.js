@@ -1,8 +1,8 @@
 module.exports = {
-  defaultTitle: 'Gabriel Rodriguez Ortiz',
-  author: 'Gabriel Rodriguez Ortiz',
-  legalName: 'Gabriel E Rodriguez Ortiz',
-  defaultDescription: 'I’m Gabriel and I’m a Computer Science and Engineering undergrad!',
+  defaultTitle: 'Gabriel E Rodriguez Ortiz',
+  author: 'Gabriel E Rodriguez Ortiz',
+  short_name: 'Gabriel Rodriguez',
+  defaultDescription: 'I’m Gabriel, a Computer Science and Engineering undergrad!',
   socialLinks: {
     github: 'https://github.com/GabrielRodriguez66',
     linkedin: 'https://www.linkedin.com/in/gabriel-e-rodriguez-ortiz/',
