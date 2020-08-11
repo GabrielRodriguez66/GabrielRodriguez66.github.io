@@ -1,9 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   a {
     color: #6d6d6d;
     text-decoration: none;
+  }
+  
+  .active {
+    border-bottom: 1px solid #333;
   }
 
   ${({ desktop }) =>
